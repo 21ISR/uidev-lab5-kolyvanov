@@ -68,16 +68,14 @@ main {
         "masonrywide masonrywide item"
         "tall small2 ."
         "tall lareg lareg"
-        "tall lareg lareg"
-        "item lareg lareg"
-        "masonrywide masonrywide small2"
-        "masonrywide masonrywide small2"
-        "tall . ."
-        "tall . ."
+        "item2 lareg lareg"
+        "masonrywide2 masonrywide2 small3"
+        "tall2 . ."
+        "tall2 . ."
         ;
+    height: 100vh;
     gap: 10px;
 }
-
 .masonry .grid-item {
     grid-area: item;
     background: white;
@@ -86,15 +84,22 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* .masonry .normal{
-    grid-area: normal;
-} */
+.masonry .item2 {
+    grid-area: item2;
+}
+
 .masonry .wide {
     grid-area: masonrywide;
+}
+.masonry .wide2 {
+    grid-area: masonrywide2;
 }
 
 .masonry .tall {
     grid-area: tall;
+}
+.masonry .tall2 {
+    grid-area: tall2;
 }
 
 .masonry .large {
@@ -103,6 +108,9 @@ main {
 
 .masonry .small {
     grid-area: small2;
+}
+.masonry .small2 {
+    grid-area: small3;
 }
 
 aside {
